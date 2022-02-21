@@ -1,4 +1,5 @@
-# TinDod
+# TinDog
+ Dating website for Dogs.
 
 ### Links
 
