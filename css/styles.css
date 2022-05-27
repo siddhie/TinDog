@@ -65,10 +65,16 @@ h1{
 
 /* features section */
 #features{
-    margin-top: -240px;
     background-color: white;
+    margin-top: -240px;
+
+    
+
     position: relative;
     z-index: 1;
+
+   
+
 
 
   
