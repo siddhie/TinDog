@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #19a2ae;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle1 {
+  position: absolute;
+  bottom: 10rem;
+  right: 50rem;
+}
+
+.circle2 {
+  position: absolute;
+  top: 20rem;
+  left: 47rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box {
+  width: 20rem;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+  background-color: white;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.part-1-card {
+  margin-top: 0;
+}
+
+.pro-img {
+  border-radius: 100%;
+  width: 30%;
+  margin-top: -50px;
+  border: 2px solid white;
+  z-index: 3;
+  background-color: white;
+  padding: 1px;
+}
+
+.part-2-white {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+div {
+  font-weight: 400;
+}
+
+div h4 {
+  margin-top: 1rem;
+  color: #2d3248;
+}
+
+div h4 span {
+  color: #969696;
+  margin-left: 0.5rem;
+  font-weight: 400;
+}
+
+div p {
+  color: #969696;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+div hr {
+  width: 100%;
+  color: #969696;
+  border-bottom: none;
+}
+
+div .last-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div .last-box .box-L {
+  margin: 1.2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div .last-box .box-L h3 {
+  color: #2d3248;
+}
+
+div .last-box .box-L p {
+  margin-top: 0.2rem;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+  margin-bottom: 0;
+}
+
+.attribution {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1rem !important;
+  color: #2d3248;
+}
+
+.attribution a:link,
+.attribution a:visited {
+  color: white;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 1500px) {
+  .circle1 {
+    position: absolute;
+    bottom: 10rem;
+    right: 50rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 43rem;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .circle1 {
+    position: absolute;
+    bottom: 9rem;
+    right: 45rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 41rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .circle1 {
+    position: absolute;
+    bottom: 9rem;
+    right: 40rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 34rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .circle1 {
+    position: absolute;
+    bottom: 9rem;
+    right: 38rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 31rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .circle1 {
+    position: absolute;
+    bottom: 9rem;
+    right: 33rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 30rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .circle1 {
+    position: absolute;
+    bottom: 9rem;
+    right: 31rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 25rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .circle1 {
+    position: absolute;
+    bottom: 15rem;
+    right: 25rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 15rem;
+    left: 25rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .circle1 {
+    position: absolute;
+    bottom: 10rem;
+    right: 20rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,220 @@
+@import "var";
+@import "mixin";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: $Dark-cyan;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle1 {
+  position: absolute;
+  bottom: 10rem;
+  right: 50rem;
+}
+.circle2 {
+  position: absolute;
+  top: 20rem;
+  left: 47rem;
+}
+
+// box section starts here--
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  @include flexbox;
+}
+.box {
+  width: 20rem;
+  align-self: center;
+  border-radius: 10px;
+  overflow: hidden;
+  @include flexbox;
+  flex-shrink: 3;
+  background-color: white;
+  font-family: $font-type;
+  margin-bottom: 2rem;
+}
+.part-1-card {
+  margin-top: 0;
+}
+.pro-img {
+  border-radius: 100%;
+  width: 30%;
+  margin-top: -50px;
+  border: 2px solid white;
+  z-index: 3;
+  background-color: white;
+  padding: 1px;
+}
+.part-2-white {
+  background-color: white;
+  @include flexbox;
+  width: 100%;
+}
+
+// starts here--3
+div {
+  font-weight: 400;
+  h4 {
+    margin-top: 1rem;
+    color: $Very-dark-desaturated-blue;
+    span {
+      color: $Dark-gray;
+      margin-left: 0.5rem;
+      font-weight: 400;
+    }
+  }
+  p {
+    // font-weight: 700;
+    color: $Dark-gray;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  hr {
+    width: 100%;
+    color: $Dark-gray;
+
+    border-bottom: none;
+  }
+  .last-box {
+    width: 100%;
+    @include flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .box-L {
+      margin: 1.2rem 0;
+      @include flexbox;
+      h3 {
+        color: $Very-dark-desaturated-blue;
+      }
+      p {
+        margin-top: 0.2rem;
+        letter-spacing: 1px;
+        font-size: 0.7rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.attribution {
+  font-family: $font-type;
+  font-size: 1rem !important;
+  color: $Very-dark-desaturated-blue;
+  a:link,
+  a:visited {
+    color: white;
+    font-size: 1rem;
+  }
+}
+
+// media queries starts here--1
+@media only screen and (max-width: 1500px) {
+  .circle1 {
+    position: absolute;
+    bottom: 10rem;
+    right: 50rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 43rem;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .circle1 {
+    position: absolute;
+    bottom: 9rem;
+    right: 45rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 41rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .circle1 {
+    position: absolute;
+    bottom: 9rem;
+    right: 40rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 34rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .circle1 {
+    position: absolute;
+    bottom: 9rem;
+    right: 38rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 31rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .circle1 {
+    position: absolute;
+    bottom: 9rem;
+    right: 33rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 30rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .circle1 {
+    position: absolute;
+    bottom: 9rem;
+    right: 31rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 19rem;
+    left: 25rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .circle1 {
+    position: absolute;
+    bottom: 15rem;
+    right: 25rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 15rem;
+    left: 25rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .circle1 {
+    position: absolute;
+    bottom: 10rem;
+    right: 20rem;
+  }
+  .circle2 {
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+  }
+}
