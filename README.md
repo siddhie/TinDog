@@ -1,5 +1,5 @@
 # TinDog
-Dogs dating website project. 
+Dogs dating Website Project. 
 
 ### Links
 
