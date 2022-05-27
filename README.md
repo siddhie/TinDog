@@ -1,5 +1,5 @@
-#TinDog
-This is a small Fitness Website Project. This project is created using basics of HTML5 &amp; CSS3, Bootstrap
+# TinDog
+This is a small dogs dating website project. This project is created using basics of HTML5 &amp; CSS3, Bootstrap
 
 ### Links
 
