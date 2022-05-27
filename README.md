@@ -3,7 +3,7 @@ This is a small Fitness Website Project. This project is created using basics of
 
 ### Links
 
-- Live Site URL: [https://siddhinandaniya.github.io/FitnessHomePage/]( https://siddhinandaniya.github.io/FitnessHomePage/)
+- Live Site URL: [https://siddhinandaniya.github.io/TinDog/](https://siddhinandaniya.github.io/TinDog/)
 
 ## Author
 
